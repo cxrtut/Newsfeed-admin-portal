@@ -64,9 +64,9 @@ const DashboardLayout = ({children}: {children: ReactNode}) => {
                                 <DropdownMenuItem asChild>
                                     <Link href={'/dashboard'}>Dashboard</Link>
                                 </DropdownMenuItem>
-                                <DropdownMenuItem asChild>
+{/*                                 <DropdownMenuItem asChild>
                                     <Link href={'/dashboard/invoices'}>Invoices</Link>
-                                </DropdownMenuItem>
+                                </DropdownMenuItem> */}
                                 <DropdownMenuSeparator/>
                                 <DropdownMenuItem asChild>
                                     <Link href={'/'}>Logout</Link>
