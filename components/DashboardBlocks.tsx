@@ -6,7 +6,7 @@ import { Bot, User, Loader2 } from 'lucide-react';
 
 const DashboardBlocks = () => {
     const [newsFeedCount, setNewsFeedCount] = useState(0);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
